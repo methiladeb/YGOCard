@@ -57,11 +57,6 @@ public:
   template<typename Comparator>
   int quickSort(Comparator comp, std::string key);
   
-  template<typename Comparator>
-  int mergeSortHelper(Comparator comp, std::string key, int left, int right);
-  //mergeSort function
-  template<typename Comparator>
-  int mergeSort(Comparator comp, std::string key);
 
  
 
